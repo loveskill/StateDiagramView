@@ -1,2 +1,2 @@
 # StateDiagramView
-this repository just for state point view
+this respository is for code of StateDiagramView,you can push your advice for me!ths.
