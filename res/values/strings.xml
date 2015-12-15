@@ -1,5 +1,10 @@
 <resources>
 
     <string name="app_name">StateDiagramView</string>
-
+	<string-array name="state_title">
+	    <item name="title1">步骤1</item>
+	    <item name="title2">步骤2</item>
+	    <item name="title3">步骤3</item>
+	    <item name="title4">步骤4</item>
+	</string-array>
 </resources>

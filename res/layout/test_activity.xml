@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" xmlns:app="http://schemas.android.com/apk/res-auto">
+    
+	<com.loveskill.statediagramview.StateDiagramView
+            android:id="@+id/my_statediagramview"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="10dp"
+            app:lineHeight="3dp"
+            app:stateLineColor_end="@color/border_gray"
+            app:stateLineColor_first="@color/green"
+            app:stateNum="4"
+            app:state="1"
+            app:statePointTextColor="@color/black"
+            app:statePointTextSize="12sp" />
+</RelativeLayout>
