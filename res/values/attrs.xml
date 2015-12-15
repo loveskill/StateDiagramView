@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <declare-styleable name="StateDiagramView">
+        <attr name="stateNum" format="integer"/>
+        <attr name="state" format="integer"/>
+        <attr name="lineHeight" format="dimension"/>
+        <attr name="stateLineColor_first" format="color"/>
+        <attr name="stateLineColor_end" format="color"/>
+        <attr name="statePointTextColor" format="color"/>
+        <attr name="statePointTextSize" format="dimension"/>
+    </declare-styleable>
+</resources>
